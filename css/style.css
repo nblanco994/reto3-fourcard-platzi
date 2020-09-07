@@ -1,0 +1,74 @@
+body{
+    background-color: hsl(0, 0%, 98%);
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-weight: 180;
+    color: hsl(234, 12%, 34%);
+    font-size: 24px;
+}
+h1 span{
+    font-weight: bold;
+    font-size: 25px;
+}
+h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0 5px 0;
+    color: hsl(234, 12%, 34%)hsl(234, 12%, 34%);
+    
+}
+p{
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+    color: hsl(229, 6%, 66%);
+}
+
+.contenedor_padre{
+    width: 95%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.contenedor_hijo {
+    text-align: left;  
+    margin-top: 40px;  
+}
+
+.contenedor_hijo p{
+    font-size: 15px;
+}
+
+.contenedor_supervisor, .contenedor_teamBuilder, .contenedor_karma,.contenedor_calculator{
+    border-radius: 5px;
+    background-color: white;
+    -webkit-box-shadow: -10px 10px 7px -2px rgba(0,0,0,0.1);
+    -moz-box-shadow: -10px 10px 7px -2px rgba(0,0,0,0.1);
+    box-shadow: -10px 10px 7px -2px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+.info1 {
+    border-top: 4px solid hsl(180, 62%, 52%);
+}
+.info2 {
+    border-top: 4px solid  hsl(0, 78%, 61%);;
+}
+.info3 {
+    border-top: 4px solid hsl(34, 93%, 61%);
+}
+.info4 {
+    border-top: 4px solid hsl(212, 85%, 62%);;
+}
+.contenedor_info {
+    width: 88%;
+    margin: 0 auto;
+}
+.img_cont {
+    text-align: right;
+}
+.contenedor_hijo img {
+    width: 23%;
+    margin: 50px 0 15px 0;
+}
