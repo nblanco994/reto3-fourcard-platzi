@@ -1,73 +1,84 @@
-body{
+body {
     background-color: hsl(0, 0%, 98%);
     font-family: 'Poppins', sans-serif;
 }
 
-h1{
+h1 {
     font-weight: 180;
     color: hsl(234, 12%, 34%);
     font-size: 24px;
 }
-h1 span{
+
+h1 span {
     font-weight: bold;
     font-size: 25px;
 }
-h2{
+
+h2 {
     font-size: 20px;
     font-weight: bold;
     margin: 20px 0 5px 0;
     color: hsl(234, 12%, 34%);
-    
 }
-p{
+
+p {
     font-weight: 400;
     font-size: 16px;
     margin: 0;
     color: hsl(229, 6%, 66%);
 }
 
-.contenedor_padre{
+.contenedor_padre {
     width: 95%;
     margin: 50px auto;
     text-align: center;
 }
 
 .contenedor_hijo {
-    text-align: left;  
-    margin-top: 40px;  
+    text-align: left;
+    margin-top: 40px;
 }
 
-.contenedor_hijo p{
+.contenedor_hijo p {
     font-size: 15px;
 }
 
-.contenedor_supervisor, .contenedor_teamBuilder, .contenedor_karma,.contenedor_calculator{
+.contenedor_supervisor, .contenedor_teamBuilder, .contenedor_karma, .contenedor_calculator {
     border-radius: 5px;
     background-color: white;
-    -webkit-box-shadow: -10px 10px 7px -2px rgba(0,0,0,0.1);
-    -moz-box-shadow: -10px 10px 7px -2px rgba(0,0,0,0.1);
-    box-shadow: -10px 10px 7px -2px rgba(0,0,0,0.1);
+    -webkit-box-shadow: -10px 10px 7px -2px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: -10px 10px 7px -2px rgba(0, 0, 0, 0.1);
+    box-shadow: -10px 10px 7px -2px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
 }
+
 .info1 {
     border-top: 4px solid hsl(180, 62%, 52%);
 }
+
 .info2 {
-    border-top: 4px solid  hsl(0, 78%, 61%);;
+    border-top: 4px solid hsl(0, 78%, 61%);
+    ;
 }
+
 .info3 {
     border-top: 4px solid hsl(34, 93%, 61%);
 }
+
 .info4 {
-    border-top: 4px solid hsl(212, 85%, 62%);;
+    border-top: 4px solid hsl(212, 85%, 62%);
+    ;
 }
+
 .contenedor_info {
     width: 88%;
     margin: 0 auto;
 }
+
 .img_cont {
     text-align: right;
 }
+
 .contenedor_hijo img {
     width: 23%;
     margin: 50px 0 15px 0;
@@ -99,49 +110,45 @@ p{
         margin: 40px auto;
         text-align: center;
     }
-    p{  
-        width: 50%;     
+    p {
+        width: 50%;
         font-size: 14px;
         margin: 0 auto;
         padding-top: 20px;
     }
     .contenedor_hijo {
         display: grid;
-        grid-template-columns: repeat(3,330px) ;
-        grid-template-areas: "supervisor team calculator"
-                            "supervisor karma calculator ";
+        grid-template-columns: repeat(3, 330px);
+        grid-template-areas: "supervisor team calculator" "supervisor karma calculator ";
         justify-content: center;
         align-items: center;
         margin-top: 50px;
-        gap: 20px 30px;
-        
+        gap: 5px 30px;
     }
-    .contenedor_hijo p{
+    .contenedor_hijo p {
         width: auto;
         font-size: 13px;
         margin: 0px;
     }
-    .contenedor_info p{
+    .contenedor_info p {
         width: 100%;
         margin-top: -16px;
     }
-    .contenedor_supervisor, .contenedor_teamBuilder, .contenedor_karma,.contenedor_calculator{
+    .contenedor_supervisor, .contenedor_teamBuilder, .contenedor_karma, .contenedor_calculator {
         width: 100%;
-        
     }
-    .info1{
+    .info1 {
         grid-area: supervisor;
     }
-    .info2{
+    .info2 {
         grid-area: team;
     }
-  
-    .info3{
+    .info3 {
         grid-area: karma;
         grid-column-start: 2;
     }
-    .info4{
-        grid-area: calculator;        
+    .info4 {
+        grid-area: calculator;
     }
     .contenedor_hijo img {
         width: 20%;
