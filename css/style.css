@@ -118,7 +118,7 @@ p {
     }
     .contenedor_hijo {
         display: grid;
-        grid-template-columns: repeat(3, 330px);
+        grid-template-columns: repeat(3, 40%);
         grid-template-areas: "supervisor team calculator" "supervisor karma calculator ";
         justify-content: center;
         align-items: center;
