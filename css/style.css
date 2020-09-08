@@ -72,3 +72,79 @@ p{
     width: 23%;
     margin: 50px 0 15px 0;
 }
+
+@media screen and (min-device-width: 1024px) {
+    #sidebar {
+        display: none;
+    }
+    #menu {
+        text-align: center;
+    }
+    h1 {
+        font-size: 25px;
+        width: 40%;
+        margin: 0 auto;
+    }
+    h2 {
+        font-size: 20px;
+        font-weight: 600;
+        margin: 22px 0 5px 0;
+    }
+    h1 span {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .contenedor_padre {
+        width: 70%;
+        margin: 40px auto;
+        text-align: center;
+    }
+    p{  
+        width: 50%;     
+        font-size: 14px;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    .contenedor_hijo {
+        display: grid;
+        grid-template-columns: repeat(3,330px) ;
+        grid-template-areas: "supervisor team calculator"
+                            "supervisor karma calculator ";
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        gap: 20px 30px;
+        
+    }
+    .contenedor_hijo p{
+        width: auto;
+        font-size: 13px;
+        margin: 0px;
+    }
+    .contenedor_info p{
+        width: 100%;
+        margin-top: -16px;
+    }
+    .contenedor_supervisor, .contenedor_teamBuilder, .contenedor_karma,.contenedor_calculator{
+        width: 100%;
+        
+    }
+    .info1{
+        grid-area: supervisor;
+    }
+    .info2{
+        grid-area: team;
+    }
+  
+    .info3{
+        grid-area: karma;
+        grid-column-start: 2;
+    }
+    .info4{
+        grid-area: calculator;        
+    }
+    .contenedor_hijo img {
+        width: 20%;
+        margin: 40px 0 19px 0;
+    }
+}
